@@ -6,12 +6,12 @@ Add this lines to your .vimrc
 ```
 set guicolors
 set background=dark
-colorscheme monkoose
+colorscheme boa
 ```
 
 For neovim add this lines to your init.vim(neovim config file)
 ```
 set termguicolors
 set background=dark
-colorscheme monkoose
+colorscheme boa
 ```
