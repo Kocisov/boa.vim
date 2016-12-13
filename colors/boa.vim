@@ -130,10 +130,11 @@ hi link vimVar Identifier
 hi link vimFunc Function
 hi link vimUserFunc Function
 hi link helpSpecial Special
-" hi helpExample
-" hi helpCommand
-" hi helpHyperTextJump
-" hi helpHyperTextEntry
+hi helpExample guifg=#806456 guibg=NONE gui=NONE
+hi helpCommand guifg=#8A8A8A guibg=NONE gui=NONE
+hi helpURL guifg=#608F76 guibg=NONE gui=underline
+hi link helpHyperTextJump Directory
+hi link helpHyperTextEntry Directory
 hi link vimFgBgAttrib Constant
 hi link vimHiAttrib Constant
 
