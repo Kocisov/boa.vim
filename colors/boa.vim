@@ -21,7 +21,7 @@ let g:colors_name = "boa"
 " directory(blue) = #8598C6
 " constant(purple) = #A686B2
 " error(darkred) = #611818
-" function(light orange) = #C4A277
+" function(light orange) = #B48B5D
 " operator(bluish white) = #ABB6BA
 " todo(bright greenish) = #90C777
 " special(purple) = #A686B2
@@ -38,7 +38,7 @@ hi String guifg=#608F76 guibg=NONE gui=NONE
 " Float
 
 hi Identifier guifg=#C2B7A9 guibg=NONE gui=NONE
-hi Function guifg=#C4A277 guibg=NONE gui=NONE
+hi Function guifg=#B48B5D guibg=NONE gui=NONE
 
 hi Statement guifg=#D6CD6B guibg=NONE gui=italic
 hi Conditional guifg=#E36660 guibg=NONE gui=NONE
@@ -112,7 +112,7 @@ hi StatusLineNC guifg=#5A4C44 guibg=#171202 gui=NONE
 hi TabLine guifg=#5A4C44 guibg=#171202 gui=NONE
 hi TabLineFill guifg=#5A4C44 guibg=#171202 gui=NONE
 " TabLineSel"
-hi Title guifg=#C4A277 guibg=NONE gui=NONE
+hi Title guifg=#B48B5D guibg=NONE gui=NONE
 hi Visual guifg=NONE guibg=#283238 gui=NONE
 hi WarningMsg guifg=#B58B4E guibg=NONE gui=NONE
 hi WildMenu guifg=#A686B2 guibg=#171202 gui=NONE
