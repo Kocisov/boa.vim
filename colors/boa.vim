@@ -21,9 +21,9 @@ let g:colors_name = "boa"
 " directory(blue) = #8598C6
 " constant(purple) = #A686B2
 " error(darkred) = #611818
-" function(light orange) = #B48B5D
+" function(orange) = #B48B5D
 " operator(bluish white) = #ABB6BA
-" todo(bright greenish) = #90C777
+" todo(bright green) = #90C777
 " special(purple) = #A686B2
 
 " Basic Highlighting (see :help group-name)
@@ -120,9 +120,9 @@ hi WildMenu guifg=#A686B2 guibg=#171202 gui=NONE
 hi Normal guifg=#C2B7A9 guibg=#1F1B11 gui=NONE
 
 " Quickfix window highlighting
-hi qfLineNr guifg=#C4A277 guibg=#171202 gui=NONE
+hi link qfLineNr Function
+hi link qfError Repeat
 " qfFileName"
-" qfError"
 
 " Vim Syntax Highlighting
 " =======================
@@ -185,6 +185,12 @@ hi link LessVariable Normal
 hi mkdURL guifg=#8598c6 guibg=NONE gui=underline
 hi mkdLinkDef guifg=#A686B2 guibg=NONE gui=NONE
 hi mkdLink guifg=#A686B2 guibg=NONE gui=NONE
+
+" Shell Syntax Highlighting
+" =============================
+hi link shLoop shConditional
+hi link shShellVariables Directory
+hi link shFunction Function
 
 " Syntastic Syntax Highlighting
 " =============================
