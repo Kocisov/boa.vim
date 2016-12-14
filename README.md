@@ -15,3 +15,20 @@ set termguicolors
 set background=dark
 colorscheme boa
 ```
+
+Support
+-------
+
+    - CSS(CSS3, Less, Sass)
+    - HTML/HTML5
+    - Markdown
+    - Python
+    - Shell
+
+TODO
+----
+
+    - Better description
+    - Add support for more languages(JavaScript at first and maybe Ruby, PHP)
+    - Fix CSS, Less, Sass, HTML highlights
+    - Add links to used vim-syntaxes
