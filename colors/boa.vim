@@ -124,6 +124,12 @@ hi link qfLineNr Function
 hi link qfError Repeat
 " qfFileName"
 
+hi link yamlFlowMappingKey Function
+hi link yamlBlockMappingKey Function
+hi link yamlKeyValueDelimiter Operator
+hi link dosiniLabel Function
+hi rstHyperlinkTarget guifg=#608F76 guibg=NONE gui=underline
+
 " Vim Syntax Highlighting
 " =======================
 hi link vimVar Identifier
@@ -169,6 +175,7 @@ hi link djangoStatement Special
 " ==============================
 "  https://github.com/pangloss/vim-javascript
 "  https://github.com/othree/javascript-libraries-syntax.vim
+hi link jsonBraces Operator
 
 " CSS Syntax Highlighting
 " =======================
@@ -177,14 +184,16 @@ hi link djangoStatement Special
 " hi cssProp
 " hi cssAttributeSelector
 " hi lessClass
-hi link LessVariable Normal
+" hi LessVariable
 
 " Markdown Syntax Highlighting
 " ============================
 "  https://github.com/plasticboy/vim-markdown
 hi mkdURL guifg=#8598c6 guibg=NONE gui=underline
-hi mkdLinkDef guifg=#A686B2 guibg=NONE gui=NONE
-hi mkdLink guifg=#A686B2 guibg=NONE gui=NONE
+hi mkdLinkDef guifg=#E36660 guibg=NONE gui=NONE
+hi mkdLink guifg=#E36660 guibg=NONE gui=NONE
+hi mkdDelimiter guifg=#E36660 guibg=NONE gui=NONE
+hi mkdListItem guifg=#A686B2 guibg=NONE gui=NONE
 
 " Shell Syntax Highlighting
 " =============================
