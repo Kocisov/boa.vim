@@ -22,7 +22,7 @@ Support
 - CSS(CSS3, Less, Sass)
 - HTML/HTML5
 - Markdown
-- Python
+- Python/Django
 - Shell
 
 TODO
