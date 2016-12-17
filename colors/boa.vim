@@ -175,7 +175,62 @@ hi link djangoStatement Special
 " ==============================
 "  https://github.com/pangloss/vim-javascript
 "  https://github.com/othree/javascript-libraries-syntax.vim
+hi link jsFunction Statement
+hi link jsFuncCall Function
 hi link jsonBraces Operator
+hi link javascriptjQuery Function
+hi link javascriptQCore javascriptjQuery
+hi link javascriptQCoreObj javascriptjQuery
+hi link javascriptQCoreData javascriptjQuery
+hi link javascriptQUtilities javascriptjQuery
+hi link javascriptQProperties javascriptjQuery
+hi link javascriptQCoreAjax javascriptjQuery
+hi link javascriptQAjax javascriptjQuery
+hi link javascriptQAttributes Operator
+hi link javascriptQCallbacks javascriptjQuery
+hi link javascriptQCSS javascriptjQuery
+hi link javascriptQData javascriptjQuery
+hi link javascriptQDeferred javascriptjQuery
+hi link javascriptQDimensions javascriptjQuery
+hi link javascriptQEffects javascriptjQuery
+hi link javascriptQEvents javascriptjQuery
+hi link javascriptQManipulation javascriptjQuery
+hi link javascriptQMiscellaneous javascriptjQuery
+hi link javascriptQOffset javascriptjQuery
+hi link javascriptQTraversing javascriptjQuery
+hi link javascript_collections javascriptjQuery
+hi link javascript_strings javascriptjQuery
+hi link javascript_arrays javascriptjQuery
+hi link javascript_functions javascriptjQuery
+hi link javascript_objects javascriptjQuery
+hi link javascript_chaining javascriptjQuery
+hi link javascript_utility javascriptjQuery
+hi link javascript_lodash javascriptjQuery
+hi link javascript_math javascriptjQuery
+hi link javascript_number javascriptjQuery
+hi link javascriptBackbone javascriptjQuery
+hi link javascriptBObjects javascriptjQuery
+hi link javascriptBEvents javascriptjQuery
+hi link javascriptBModel javascriptjQuery
+hi link javascriptBCollection javascriptjQuery
+hi link javascriptBRouter javascriptjQuery
+hi link javascriptBHistory javascriptjQuery
+hi link javascriptBSync javascriptjQuery
+hi link javascriptBView javascriptjQuery
+hi link javascriptBUtility javascriptjQuery
+hi link javascriptBModelAttrs javascriptQAttributes
+hi link javascriptBCollectionAttrs javascriptQAttributes
+hi link javascriptBRouterAttrs javascriptQAttributes
+hi link javascriptBSyncAttrs javascriptQAttributes
+hi link javascriptBViewAttrs javascriptQAttributes
+hi link javascriptReact javascriptjQuery
+hi link javascriptRTop javascriptjQuery
+hi link javascriptRComponent javascriptjQuery
+hi link jsDomElemAttrs Operator
+hi link jsDomElemFuncs Function
+hi link jsHtmlElemAttrs Operator
+hi link jsHtmlElemFuncs Function
+hi link jsCssStyles Operator
 
 " CSS Syntax Highlighting
 " =======================
