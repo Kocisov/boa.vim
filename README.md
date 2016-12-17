@@ -2,6 +2,16 @@
 Colorscheme for vim and neovim.
 Working only in terminals with 24-bit colour support.
 
+Screenshots
+-----------
+
+### Python
+
+![Python](http://i.imgur.com/6kpLalG.png)
+
+Instruction
+-----------
+
 Add this lines to your .vimrc
 ```
 set guicolors
