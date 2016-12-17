@@ -54,7 +54,7 @@ hi PreProc guifg=#E36660 guibg=NONE gui=NONE
 " Macro"
 " PreCondit"
 
-hi Type guifg=#C2B7A9 guibg=NONE gui=NONE
+hi Type guifg=#8797C1 guibg=NONE gui=NONE
 " StorageClass"
 hi Structure guifg=#A686B2 guibg=NONE gui=NONE
 " Typedef"
@@ -138,13 +138,13 @@ hi link vimNotFunc Statement
 hi link vimUserFunc Function
 hi link helpSpecial Special
 hi link vimCommand Repeat
-hi link vimEnvvar Directory
-hi link vimOption Directory
+hi link vimEnvvar Type
+hi link vimOption Type
 hi helpExample guifg=#806456 guibg=NONE gui=NONE
 hi helpCommand guifg=#8A8A8A guibg=NONE gui=NONE
 hi helpURL guifg=#608F76 guibg=NONE gui=underline
-hi link helpHyperTextJump Directory
-hi link helpHyperTextEntry Directory
+hi link helpHyperTextJump Type
+hi link helpHyperTextEntry Type
 hi link vimFgBgAttrib Constant
 hi link vimHiAttrib Constant
 
@@ -198,7 +198,7 @@ hi mkdListItem guifg=#A686B2 guibg=NONE gui=NONE
 " Shell Syntax Highlighting
 " =============================
 hi link shLoop shConditional
-hi link shShellVariables Directory
+hi link shShellVariables Type
 hi link shFunction Function
 
 " Syntastic Syntax Highlighting
