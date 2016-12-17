@@ -26,11 +26,12 @@ set background=dark
 colorscheme boa
 ```
 
-Support
--------
+Configured for
+--------------
 
 - CSS(CSS3, Less, Sass)
 - HTML/HTML5
+- JavaScript
 - Markdown
 - Python/Django
 - Shell
@@ -39,6 +40,6 @@ TODO
 ----
 
 - Better description
-- Add support for more languages(JavaScript at first and maybe Ruby, PHP)
-- Fix CSS, Less, Sass, HTML highlights
 - Add links to used vim-syntaxes
+- Think about changing some highlight colors for CSS, Less, Sass, HTML
+- Configure for more languages(Ruby, Php). Less interesting.
