@@ -256,6 +256,12 @@ hi link shLoop shConditional
 hi link shShellVariables Type
 hi link shFunction Function
 
+" XML Syntax Highlighting
+" =============================
+hi link xmlTag Repeat
+hi link xmlTagName xmlTag
+hi link xmlEndTag xmlTag
+
 " Syntastic Syntax Highlighting
 " =============================
 hi SyntasticErrorSign guifg=#E36660 guibg=NONE gui=bold
