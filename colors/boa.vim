@@ -134,6 +134,7 @@ hi rstHyperlinkTarget guifg=#608F76 guibg=NONE gui=underline
 " =======================
 hi link vimVar Identifier
 hi link vimFunc Function
+hi link vimSetSep Normal
 hi link vimNotFunc Statement
 hi link vimUserFunc Function
 hi link helpSpecial Special
@@ -169,7 +170,6 @@ hi link htmlEndTag Normal
 hi link htmlTagName Repeat
 hi link djangoVarBlock Normal
 hi link djangoTagBlock Normal
-hi link djangoStatement Special
 
 " JavaScript Syntax Highlighting
 " ==============================
