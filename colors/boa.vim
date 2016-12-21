@@ -161,6 +161,10 @@ hi link djangoQueryObject Function
 hi link djangoModelField Function
 hi link djangoModelsModule Normal
 hi link jediFat Constant
+hi pythonDocParam guifg=#6D735D guibg=NONE gui=bold
+hi pythonDocString guifg=#666C55 guibg=NONE gui=NONE
+hi pythonDocTest guifg=#766477 guibg=NONE gui=NONE
+hi pythonDocTest2 guifg=#766477 guibg=NONE gui=NONE
 
 " HTML Syntax Highlighting
 " ========================
