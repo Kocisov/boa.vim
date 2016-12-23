@@ -7,7 +7,9 @@ syn keyword pythonAsNone as nonlocal None
 
 if exists('g:python_highlight_docparameters')
     syn match pythonDocParam   "^\s*:\zsparam\s"me=e-1 containedin=pythonString display
-    syn match pythonDocParam   "^\s*:\zsreturns:"me=e-1 containedin=pythonString display
+    syn match pythonDocParam   "^\s*:\zsreturns\=:"me=e-1 containedin=pythonString display
+    syn match pythonDocParam   "^\s*\zsArgs:" containedin=pythonString display
+    syn match pythonDocParam   "^\s*\zsReturns\=:" containedin=pythonString display
 endif
 
 hi link pythonExtraOperator Operator
