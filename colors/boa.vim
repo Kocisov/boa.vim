@@ -13,7 +13,7 @@ let g:colors_name = "boa"
 " ColorPallete
 " ============
 " foreground(yellowish white) = #C2B7A9
-" background(browndark) = #1F1B11
+" background(browndark) = #171202
 " string(greenish) = #608F76
 " comment(brown) = #725749
 " conditional(pinky) = #E36660
@@ -73,32 +73,32 @@ hi Todo guifg=#90C777 guibg=NONE gui=bold
 
 " Extended Highlighting (see :help highlight-default)
 " ====================================================
-hi ColorColumn guifg=NONE guibg=#28241B gui=NONE
+hi ColorColumn guifg=NONE guibg=#1F1B11 gui=NONE
 " Conceal"
 " Cursor"
 " CursorIM"
-hi CursorColumn guifg=NONE guibg=#28241B gui=NONE
-hi CursorLine guifg=NONE guibg=#28241B gui=NONE
+hi CursorColumn guifg=NONE guibg=#1F1B11 gui=NONE
+hi CursorLine guifg=NONE guibg=#1F1B11 gui=NONE
 hi Directory guifg=#8598C6 guibg=NONE gui=NONE
 hi DiffAdd guifg=#a8a8a8 guibg=#3f593f gui=NONE
 hi DiffChange guifg=#a8a8a8 guibg=#3f3f59 gui=NONE
 hi DiffDelete guifg=#b39797 guibg=#733e3e gui=NONE
 hi DiffText guifg=#a8a8a8 guibg=#594936 gui=NONE
 hi ErrorMsg guifg=#E36660 guibg=NONE gui=bold
-hi VertSplit guifg=NONE guibg=#171202 gui=NONE
+hi VertSplit guifg=NONE guibg=#0F0A01 gui=NONE
 hi Folded guifg=#8e8eb3 guibg=#272738 gui=NONE
-hi FoldColumn guifg=NONE guibg=#171202 gui=NONE
-hi SignColumn guifg=NONE guibg=#171202 gui=NONE
+hi FoldColumn guifg=NONE guibg=#0F0A01 gui=NONE
+hi SignColumn guifg=NONE guibg=#0F0A01 gui=NONE
 " Incsearch"
-hi LineNr guifg=#5A4C44 guibg=#171202 gui=NONE
-hi CursorLineNr guifg=#C4A277 guibg=#171202 gui=NONE
+hi LineNr guifg=#5A4C44 guibg=#0F0A01 gui=NONE
+hi CursorLineNr guifg=#C4A277 guibg=#0F0A01 gui=NONE
 hi MatchParen guifg=NONE guibg=#283238 gui=NONE
 hi ModeMsg guifg=#608F76 guibg=NONE gui=NONE
 hi MoreMsg guifg=#608F76 guibg=NONE gui=NONE
 hi NonText guifg=#5d5d5d guibg=NONE gui=NONE
-hi Pmenu guifg=#947D72 guibg=#34312B gui=NONE
-hi PmenuSel guifg=#96A6CF guibg=#283238 gui=NONE
-hi PmenuSbar guifg=NONE guibg=#292621 gui=NONE
+hi Pmenu guifg=#947D72 guibg=#292621 gui=NONE
+hi PmenuSel guifg=#96A6CF guibg=#252B2F gui=NONE
+hi PmenuSbar guifg=NONE guibg=#232019 gui=NONE
 hi PmenuThumb guifg=NONE guibg=#283238 gui=NONE
 hi Question guifg=#608F76 guibg=NONE gui=NONE
 hi Search guifg=NONE guibg=#0A3615 gui=NONE
@@ -107,17 +107,17 @@ hi SpellCap guifg=NONE guibg=#42421b gui=NONE
 hi SpellLocal guifg=NONE guibg=#42421b gui=NONE
 hi SpellRare guifg=NONE guibg=#42421b gui=NONE
 hi SpellBad guifg=NONE guibg=#4d1313 gui=NONE
-hi StatusLine guifg=NONE guibg=#171202 gui=NONE
-hi StatusLineNC guifg=#5A4C44 guibg=#171202 gui=NONE
-hi TabLine guifg=#5A4C44 guibg=#171202 gui=NONE
-hi TabLineFill guifg=#5A4C44 guibg=#171202 gui=NONE
+hi StatusLine guifg=NONE guibg=#0F0A01 gui=NONE
+hi StatusLineNC guifg=#5A4C44 guibg=#0F0A01 gui=NONE
+hi TabLine guifg=#5A4C44 guibg=#0F0A01 gui=NONE
+hi TabLineFill guifg=#5A4C44 guibg=#0F0A01 gui=NONE
 " TabLineSel"
 hi Title guifg=#B48B5D guibg=NONE gui=NONE
 hi Visual guifg=NONE guibg=#283238 gui=NONE
 hi WarningMsg guifg=#B58B4E guibg=NONE gui=NONE
-hi WildMenu guifg=#A686B2 guibg=#171202 gui=NONE
+hi WildMenu guifg=#A686B2 guibg=#0F0A01 gui=NONE
 
-hi Normal guifg=#C2B7A9 guibg=#1F1B11 gui=NONE
+hi Normal guifg=#C2B7A9 guibg=#171202 gui=NONE
 
 " Quickfix window highlighting
 hi link qfLineNr Function
@@ -272,7 +272,7 @@ hi SyntasticWarningSign guifg=#DD9460 guibg=NONE gui=bold
 
 " Easy-Motion Syntax Highlighting
 " ===============================
-hi EasyMotionIncCursor guifg=#1F1B11 guibg=#725749 gui=NONE
+hi EasyMotionIncCursor guifg=#171202 guibg=#725749 gui=NONE
 
 " Startify Syntax Highlighting
 " ============================
