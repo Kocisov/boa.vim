@@ -7,7 +7,7 @@ Screenshots
 
 ### Python
 
-![Python](http://i.imgur.com/6kpLalG.png)
+![Python](http://i.imgur.com/VZlAOSe.png)
 
 Instruction
 -----------
