@@ -138,6 +138,7 @@ hi link vimSetSep Normal
 hi link vimNotFunc Statement
 hi link vimUserFunc Function
 hi link helpSpecial Special
+hi link helpHeadline Repeat
 hi link vimCommand Repeat
 hi link vimEnvvar Type
 hi link vimOption Type
