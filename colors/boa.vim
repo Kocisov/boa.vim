@@ -280,6 +280,15 @@ hi EasyMotionIncCursor guifg=#171202 guibg=#725749 gui=NONE
 hi link StartifyNumber Repeat
 hi link StartifySection String
 
+" CtrlP Highlighting
+" ===================
+hi link  CtrlPBufferHid   Function
+
+" Netrw Highlighting
+" ===================
+hi link  NetrwList   Type
+hi link  NetrwHidePat   Special
+
 " NERDTree Highlighting
 " =====================
 hi link  NERDTreeOpenable   String
@@ -294,6 +303,8 @@ hi NERDTreeCWD guifg=#E36660 guibg=NONE gui=bold
 " ===================
 hi link  TagbarType   Statement
 hi link  TagbarScope  Function
+hi link  TagbarFoldIcon  Function
+hi link  TagbarAccessProtected  Type
 
 " License
 " =======
