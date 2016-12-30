@@ -86,7 +86,7 @@ hi DiffDelete guifg=#b39797 guibg=#733e3e gui=NONE
 hi DiffText guifg=#a8a8a8 guibg=#594936 gui=NONE
 hi ErrorMsg guifg=#E36660 guibg=NONE gui=bold
 hi VertSplit guifg=NONE guibg=#0F0A01 gui=NONE
-hi Folded guifg=#8e8eb3 guibg=#272738 gui=NONE
+hi Folded guifg=#8e8eb3 guibg=#322433 gui=NONE
 hi FoldColumn guifg=NONE guibg=#0F0A01 gui=NONE
 hi SignColumn guifg=NONE guibg=#0F0A01 gui=NONE
 " Incsearch"
