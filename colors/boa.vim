@@ -87,11 +87,11 @@ hi DiffText guifg=#a8a8a8 guibg=#594936 gui=NONE
 hi ErrorMsg guifg=#E36660 guibg=NONE gui=bold
 hi VertSplit guifg=NONE guibg=#0F0A01 gui=NONE
 hi Folded guifg=#8e8eb3 guibg=#322433 gui=NONE
-hi FoldColumn guifg=NONE guibg=#0F0A01 gui=NONE
+hi FoldColumn guifg=#8797C1 guibg=#0F0A01 gui=NONE
 hi SignColumn guifg=NONE guibg=#0F0A01 gui=NONE
 " Incsearch"
 hi LineNr guifg=#5A4C44 guibg=#0F0A01 gui=NONE
-hi CursorLineNr guifg=#C4A277 guibg=#0F0A01 gui=NONE
+hi CursorLineNr guifg=#5F5048 guibg=#1F1B11 gui=NONE
 hi MatchParen guifg=NONE guibg=#283238 gui=NONE
 hi ModeMsg guifg=#608F76 guibg=NONE gui=NONE
 hi MoreMsg guifg=#608F76 guibg=NONE gui=NONE
